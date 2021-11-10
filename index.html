@@ -4,13 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/normalize.css">
-    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" href="./css/css_bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
     <title>Template</title>
 </head>
 <body>
 
+    <div class="p-5 bg-primary text-white text-center">
+        <div class="container">
+            <h1 class="h6">How much time do you spend?</h1>
+            <div class="row align-items-center row-cols-lg-auto g-3 my-3">
+                <div class="col-2">
+                    <p class="text-light">Distance</p>
+                </div>
+                <form action="https://echo.htmlacademy.ru/" class="col-8 row" id="kilometer" name="distance">
+                    <label for="distance"></label>
+                    <input type="number" name="distance" id="distance" class="form-control" placeholder="enter in kilometers">
+                    <div class="col-2"><button type="submit" class="btn btn-danger" name="distance">calculate</button></div>
+                </form>
+            </div>
+            
+            <div class="row justify-content-between">
+                <div class="col-sm-3">
+                    <img 
+                    src="./images/dog-walking-dog-walking-dog-walk-png.png" 
+                    alt="walking person with dog"
+                    width="125"
+                    height="100"
+                    >
+                    <h2>On foot</h2>
+                    <p id="foot">0</p>
+                </div>
+                <div class="col-sm-3">
+                    <img 
+                    src="./images/riding-bicycle-png-thule-bike-stacker-transparent-png.png" 
+                    alt="walking person with dog"
+                    width="125"
+                    height="100"
+                    >
+                    <h2>By bicycle</h2>
+                    <p id="bicycle">0</p>
+                </div>
+                <div class="col-sm-3">
+                    <img 
+                    src="./images/car.png" 
+                    alt="walking person with dog"
+                    width="125"
+                    height="100"
+                    >
+                    <h2>By car</h2>
+                    <p id="car">0</p>
+                </div>
+                <div class="col-sm-3">
+                    <img 
+                    src="./images/plane.png" 
+                    alt="walking person with dog"
+                    width="125"
+                    height="100"
+                    >
+                    <h2>By plane</h2>
+                    <p id="plane">0</p>
+                </div>
+            </div>
+        </div>
 
-    <script src="./JS/main.js"></script>
+    </div>
+
+
+    <script src="./js/main.js"></script>
 </body>
 </html>
