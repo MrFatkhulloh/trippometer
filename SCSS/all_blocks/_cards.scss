@@ -1,0 +1,16 @@
+.cards {
+    margin: 40px;
+    &__list {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        list-style-type: none;
+    }
+
+    &__item {
+        color: lightgoldenrodyellow;
+
+        img {
+            margin: 20px;
+        }
+    }
+}
